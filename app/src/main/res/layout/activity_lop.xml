@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LopActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHI TIẾT LỚP"
+        android:textAlignment="center"
+        android:textColor="#00B2EE"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nhập mã lớp:"
+        android:textColor="#00B2EE"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtMaLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhập tên lớp:"
+        android:textColor="#00B2EE"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtTenLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/add_32px"
+            android:text="THÊM"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnSua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/btnThem"
+            android:drawableLeft="@drawable/sua_32px"
+            android:text="SỬA"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

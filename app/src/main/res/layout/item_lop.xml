@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+
+
+
+    <TextView
+        android:id="@+id/tvMaLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvTenLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_below="@+id/tvMaLop"/>
+    <Button
+        android:id="@+id/btnXoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XÓA"
+        android:drawableLeft="@drawable/xoa_32px"
+        android:textSize="18dp"
+        android:layout_below="@+id/tvTenLop"
+        />
+    <Button
+        android:id="@+id/btnSua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SỬA"
+        android:drawableLeft="@drawable/sua_32px"
+        android:textSize="18dp"
+        android:layout_below="@+id/tvTenLop"
+        android:layout_toRightOf="@+id/btnXoa"
+        />
+</RelativeLayout>
