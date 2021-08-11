@@ -1,1 +1,3 @@
 # QuanLySinhVien
+-Java Android
+-SQL
